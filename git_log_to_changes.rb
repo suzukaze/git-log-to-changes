@@ -39,7 +39,7 @@ if ARGV.length > 0
     puts "convert 1st argment Integer"
   end
 end
-puts "offset_day:#{offset_day}"
+
 log = ""
 Dir.chdir(MRUBY_HOME) do
   date = (Date.today - offset_day).strftime("%Y-%m-%d")
