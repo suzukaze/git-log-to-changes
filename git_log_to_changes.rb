@@ -31,9 +31,18 @@ github_authors = {
   'yui-knk' => 'yui-knk'
 }
 
+offset_day = 1
+if ARGV.length > 0
+  begin
+    offset_day = ARGV[0].to_i
+  rescue
+    puts "convert 1st argment Integer"
+  end
+end
+puts "offset_day:#{offset_day}"
 log = ""
 Dir.chdir(MRUBY_HOME) do
-  date = (Date.today - 10).strftime("%Y-%m-%d")
+  date = (Date.today - offset_day).strftime("%Y-%m-%d")
   puts date
   log = `git log --date=iso --pretty=format:"%ad,%h,%an,%s,%H" --since=#{date}`
 end
