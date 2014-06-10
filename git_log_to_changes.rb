@@ -11,6 +11,7 @@ github_authors = {
   'Joachim Baran' => 'joejimbo',
   'Jun Hiroe' => 'suzukaze',
   'Keita Obo' => 'ktaobo',
+  'Kouhei Sutou' => 'kou ',
   'mattn' => 'mattn',
   'Marcus Stollsteimer' => 'stomar',
   'Masaki Muranaka' => 'monaka',
