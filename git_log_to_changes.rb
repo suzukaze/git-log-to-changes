@@ -3,12 +3,14 @@ require 'date'
 MRUBY_HOME='/Users/hiroejun/work/mruby/mruby'
 
 github_authors = {
+  'Akito Mochizuki' => 'ak-mochi-iij',
   'Akira Kuroda' => 'akuroda',
   'Carson McDonald' => 'cremno',
   'Daniel Bovensiepen' => 'bovi',
   'iTitou' => 'iTitou',
-  'Konstantin Haase' => '',
+  'Konstantin Haase' => 'rkh',
   'Joachim Baran' => 'joejimbo',
+  'Jose Narvaez' => 'goyox86',
   'Jun Hiroe' => 'suzukaze',
   'Keita Obo' => 'ktaobo',
   'Kouhei Sutou' => 'kou ',
@@ -19,6 +21,7 @@ github_authors = {
   'Mitchell Blank Jr' => 'mitchblank',
   'Mitchell Hashimoto' => 'mitchellh',
   'Nobuyoshi Nakada' => 'nobu',
+  'Santa Zhang' => 'santazhang',
   'sasaki takeru' => 'takeru',
   'Takeshi Watanabe' => 'take-cheeze',
   'takkaw' => 'takkaw',
