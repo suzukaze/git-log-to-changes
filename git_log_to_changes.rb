@@ -21,18 +21,19 @@ github_authors = {
   'Mitchell Blank Jr' => 'mitchblank',
   'Mitchell Hashimoto' => 'mitchellh',
   'Nobuyoshi Nakada' => 'nobu',
-  'Santa Zhang' => 'santazhang',
+  'Patrick Pokatilo' => 'SHyx0rmZ',
   'sasaki takeru' => 'takeru',
-  'Takeshi Watanabe' => 'take-cheeze',
+  'Santa Zhang' => 'santazhang',
   'takkaw' => 'takkaw',
+  'Takeshi Watanabe' => 'take-cheeze',
   'Tatsuhiko Kubo' => 'cubicdaiya',
   'Tatsuya Matsumoto' => 'Tatsuya Matsumoto',
   'Tomoyuki Sahara' => 'tsahara-iij',
   'Utkarsh Kukreti' => 'utkarshkukreti',
   'Kazuki Tsujimoto' => 'k-tsj',
   'U.Nakamura' => 'unak',
+  'yui-knk' => 'yui-knk',
   'Yukihiro "Matz" Matsumoto' => 'matz',
-  'yui-knk' => 'yui-knk'
 }
 
 offset_day = 1
