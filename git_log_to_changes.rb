@@ -7,6 +7,7 @@ github_authors = {
   'Akira Kuroda' => 'akuroda',
   'Carson McDonald' => 'cremno',
   'Daniel Bovensiepen' => 'bovi',
+  'David Turnbull' => 'AE9RB',
   'iTitou' => 'iTitou',
   'Konstantin Haase' => 'rkh',
   'Joachim Baran' => 'joejimbo',
