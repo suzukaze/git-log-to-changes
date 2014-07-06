@@ -1,6 +1,6 @@
 require 'date'
 
-MRUBY_HOME='/Users/hiroejun/work/mruby/mruby'
+MRUBY_HOME='/Users/hiroejun/repo/src/github.com/suzukaze/mruby'
 
 github_authors = {
   'Akito Mochizuki' => 'ak-mochi-iij',
