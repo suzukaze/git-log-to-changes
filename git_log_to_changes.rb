@@ -13,6 +13,7 @@ github_authors = {
   'Hiroshi Mimaki' => 'mimaki',
   'iTitou' => 'iTitou',
   'Konstantin Haase' => 'rkh',
+  'Jonas Kulla' => 'Ancurio',
   'Joachim Baran' => 'joejimbo',
   'Jose Narvaez' => 'goyox86',
   'Jun Hiroe' => 'suzukaze',
