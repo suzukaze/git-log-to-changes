@@ -1,6 +1,8 @@
 require 'date'
 
-MRUBY_HOME='/Users/hiroejun/repo/src/github.com/suzukaze/mruby'
+#MRUBY_HOME='/Users/hiroejun/repo/src/github.com/suzukaze/mruby'
+MRUBY_HOME='/cygdrive/c/home/hiroejun/work/mruby'
+
 
 github_authors = {
   'Akito Mochizuki' => 'ak-mochi-iij',
@@ -8,6 +10,7 @@ github_authors = {
   'Carson McDonald' => 'cremno',
   'Daniel Bovensiepen' => 'bovi',
   'David Turnbull' => 'AE9RB',
+  'Hiroshi Mimaki' => 'mimaki',
   'iTitou' => 'iTitou',
   'Konstantin Haase' => 'rkh',
   'Joachim Baran' => 'joejimbo',
