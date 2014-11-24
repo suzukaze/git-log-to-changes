@@ -1,8 +1,6 @@
 require 'date'
 
-#MRUBY_HOME='/Users/hiroejun/repo/src/github.com/suzukaze/mruby'
-MRUBY_HOME='/cygdrive/c/home/hiroejun/work/mruby'
-
+MRUBY_HOME=ENV['MRUBY_HOME']
 
 github_authors = {
   'Akito Mochizuki' => 'ak-mochi-iij',
@@ -10,9 +8,13 @@ github_authors = {
   'Carson McDonald' => 'cremno',
   'Daniel Bovensiepen' => 'bovi',
   'David Turnbull' => 'AE9RB',
-  'Hiroshi Mimaki' => 'mimaki',
+  'Eric Hodel' => 'drbrain',
   'iTitou' => 'iTitou',
+  'INOUE Yasuyuki' => 'yasuyuki',
+  'Hiroshi Mimaki' => 'mimaki',
+  'Hiroyuki Matsuzaki' => 'Hiroyuki-Matsuzaki',
   'Konstantin Haase' => 'rkh',
+  'Jan Berdajs' => 'mrbrdo',
   'Jonas Kulla' => 'Ancurio',
   'Joachim Baran' => 'joejimbo',
   'Jose Narvaez' => 'goyox86',
@@ -25,9 +27,11 @@ github_authors = {
   'Miura Hideki' => 'miura1729',
   'Mitchell Blank Jr' => 'mitchblank',
   'Mitchell Hashimoto' => 'mitchellh',
+  'M.Naruoka' => 'fenrir',
   'Nobuyoshi Nakada' => 'nobu',
   'Patrick Pokatilo' => 'SHyx0rmZ',
   'sasaki takeru' => 'takeru',
+  'Robert Mosolgo' => 'rmosolgo',
   'Santa Zhang' => 'santazhang',
   'takkaw' => 'takkaw',
   'Takeshi Watanabe' => 'take-cheeze',
