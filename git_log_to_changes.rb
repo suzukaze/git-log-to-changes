@@ -19,6 +19,7 @@ github_authors = {
   'Joachim Baran' => 'joejimbo',
   'Jose Narvaez' => 'goyox86',
   'Jun Hiroe' => 'suzukaze',
+  'Julian Aron Prenner' => 'furunkel',
   'Keita Obo' => 'ktaobo',
   'Kouhei Sutou' => 'kou ',
   'mattn' => 'mattn',
