@@ -5,6 +5,7 @@ MRUBY_HOME=ENV['MRUBY_HOME']
 github_authors = {
   'Akito Mochizuki' => 'ak-mochi-iij',
   'Akira Kuroda' => 'akuroda',
+  'Ben A Morgan' => 'BenMorganIO',
   'Carson McDonald' => 'cremno',
   'Daniel Bovensiepen' => 'bovi',
   'David Turnbull' => 'AE9RB',
@@ -44,6 +45,7 @@ github_authors = {
   'Utkarsh Kukreti' => 'utkarshkukreti',
   'Kazuki Tsujimoto' => 'k-tsj',
   'U.Nakamura' => 'unak',
+  'Xuejie "Rafael" Xiao' => 'Xiao',
   'yui-knk' => 'yui-knk',
   'Yukihiro "Matz" Matsumoto' => 'matz',
 }
