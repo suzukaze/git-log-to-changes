@@ -80,7 +80,7 @@ log = ""
 Dir.chdir(MRUBY_HOME) do
   date = (Date.today - offset_day).strftime("%Y-%m-%d")
   puts date
-  log = `git log --date=iso --pretty=format:"%ad,%h,%an,%s,%H" --since=#{date}`
+  log = `git log --date=iso --pretty=format:"%adあ%hあ%anあ%sあ%H" --since=#{date}`
 end
 
 logs = log.split("\n")
@@ -94,7 +94,7 @@ logs = logs.reverse
 puts logs
 
 logs.each do |line|
-  elements = line.split(",")
+  elements = line.split("あ")
   day = elements[0][0, 16]
   shorten_commit = elements[1]
   author = elements[2]
