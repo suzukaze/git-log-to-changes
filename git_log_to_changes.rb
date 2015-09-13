@@ -13,6 +13,7 @@ class GitLogToChange < Thor
     'Ben A Morgan' => 'BenMorganIO',
     'Blaž Hrastnik' => 'archSeer',
     'Carson McDonald' => 'cremno',
+    'Corey Powell' => 'IceDragon200',
     'Daniel Bovensiepen' => 'bovi',
     'David Turnbull' => 'AE9RB',
     'Eric Hodel' => 'drbrain',
@@ -75,17 +76,10 @@ class GitLogToChange < Thor
     'Zachary Scott' => 'zzak',
   }
 
-  desc "command1 usage", "command1 desc"
-  method_option "opt", desc: 'ops'
-  def command1(name)
-    puts "command1 #{name}"
-    print options['opt'], "\n"
-  end
-  
   desc "show_commits usage", "show_commits --days=[days]"
-  method_option "days", desc: 'ops'
+  method_option "days", desc: 'days'
+  method_option "file", desc: 'file'
   def show_commits(name = 'default')
-    puts "command #{name}"
     @offset_day = 10
     if options['days']
       begin
@@ -95,11 +89,29 @@ class GitLogToChange < Thor
       end
     end
     
-    show
+    commit_hashes = {}
+    skip = false
+    filename = options['file']
+    if filename
+      skip = true
+      File.open(filename) do |file|
+        file.each_line do |commit_hash|
+          commit_hash.chomp!
+          commit_hashes.store(commit_hash, true)
+        end
+      end
+    end
+    p commit_hashes
+    puts "skip=#{skip}"
+    if skip
+      show(true, commit_hashes)
+    else
+      show
+    end
   end
 
   no_commands do
-    def show
+    def show(skip = false, commit_hashes = nil)
       log = ""
       Dir.chdir(MRUBY_HOME) do
         date = (Date.today - @offset_day).strftime("%Y-%m-%d")
@@ -120,7 +132,7 @@ class GitLogToChange < Thor
       logs.each do |line|
         elements = line.split("あ")
         day = elements[0][0, 16]
-        shorten_commit = elements[1]
+        commit_hash = elements[1]
         author = elements[2]
         subject = elements[3]
         commit = elements[4]
@@ -130,8 +142,11 @@ class GitLogToChange < Thor
           github_author = author
         end
 
+        if skip
+          next unless commit_hashes[commit_hash]
+        end
         puts <<"EOS"
-####{day} #{github_author} [commit #{shorten_commit}](https://github.com/mruby/mruby/commit/#{commit})
+####{day} #{github_author} [commit #{commit_hash}](https://github.com/mruby/mruby/commit/#{commit})
 #{subject}
 
 EOS
