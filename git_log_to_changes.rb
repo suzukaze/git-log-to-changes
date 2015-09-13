@@ -14,9 +14,11 @@ github_authors = {
   'Eric Hodel' => 'drbrain',
   'Franck Verrot' => 'franckverrot',
   'Go Saito' => 'govm',
+  'go.kikuta' => 'gkta',
   'iTitou' => 'iTitou',
   'INOUE Yasuyuki' => 'yasuyuki',
   'Hiroshi Mimaki' => 'mimaki',
+  'Hiro Asari' => 'BanzaiMan',
   'Hiroyuki Matsuzaki' => 'Hiroyuki-Matsuzaki',
   'Huei-Horng Yo' => 'hiroshiyui',
   'Konstantin Haase' => 'rkh',
@@ -44,6 +46,7 @@ github_authors = {
   'Nobuyoshi Nakada' => 'nobu',
   'Patrick Pokatilo' => 'SHyx0rmZ',
   'sasaki takeru' => 'takeru',
+  'Seba Gamboa' => 'sagmor',
   'Simon Génier' => 'sgnr',
   'Robert Mosolgo' => 'rmosolgo',
   'Ralph Desir' => 'Mav7',
@@ -65,6 +68,7 @@ github_authors = {
   'Syohei YOSHIDA' => 'syohex',
   'Yukihiro "Matz" Matsumoto' => 'matz',
   'Yuhei Okazaki' => 'Yuuhei-Okazaki',
+  'Zachary Scott' => 'zzak',
 }
 
 offset_day = 1
